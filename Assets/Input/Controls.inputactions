@@ -1,1 +1,34 @@
-{}
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Dialog",
+            "id": "e8cd72f7-6802-4456-ac3d-e8ebd082807d",
+            "actions": [
+                {
+                    "name": "Dalee",
+                    "type": "Button",
+                    "id": "bc0e9977-1f7b-45bb-82d7-74df3fad76b6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7b8dd815-62c3-4e5d-94ed-5558827d252e",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dalee",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

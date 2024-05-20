@@ -1,4 +1,4 @@
-VAR characterName = "???"
+VAR characterName = "/"
 VAR characterExpression = 0
 
 

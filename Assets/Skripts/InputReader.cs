@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class InputReader : MonoBehaviour, Controls.IDialogueActions
 {
@@ -27,6 +28,14 @@ public class InputReader : MonoBehaviour, Controls.IDialogueActions
         if (context.started && _dialogues.DialogPlay)
         {
             _dialogues.ContinueStory(_dialogues._choiceButtonsPanel.activeInHierarchy);
+        }
+    }
+
+    private void Update()
+    {
+        if (Input.GetKey("escape"))  
+        {
+            SceneManager.LoadScene("Menu");
         }
     }
 }
